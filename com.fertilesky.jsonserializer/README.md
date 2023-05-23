@@ -22,7 +22,7 @@ namespace MyGame.Data
   {
     class Fruit aFruit = new Fruit(){int size = 3; string name = "ASize3Fruit"};
     var fileName = "FruitData";
-    var savepath = BaseSerializer.SaveToJson<Fruit>(aFruit, fileName, @"/SavedGames/Data/");
+    var savepath = BaseSerializer.SaveToJson<Fruit>(aFruit, fileName, @"/SavedGames/Data/", overwrite:true);
   }
   
 }
