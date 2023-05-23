@@ -36,3 +36,12 @@ File will be saved using Unity Application.DataPath, so in editor it will berela
 ```
 var fruit = LoadFromJson<Fruit>(@"C:/Projects/YourGame/Assets/SavedGames/Data/MyGame.Data.Fruit_ASize3Fruit.json");
 ```
+
+## To develop this package:
+
+- Create a unity project.
+- In the `packages` folder Create a folder named `com.fertilesky.jsonserializer` 
+- in the created folder run git bash and `git clone` this repo.
+- Run unity project.
+- Edit the package files and commit your changes to the repository.
+- Dont forget to write unit tests for the unity test runner.
