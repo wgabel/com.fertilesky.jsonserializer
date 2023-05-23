@@ -1,0 +1,17 @@
+{
+    "name": "com.fertilesky.jsonserializer.EditorTests",
+    "references": [
+        "com.fertilesky.jsonserializer"
+    ],
+    "includePlatforms": [
+    "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "autoReferenced": false,
+	"optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+    "versionDefines": []
+}
