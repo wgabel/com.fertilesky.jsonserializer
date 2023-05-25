@@ -40,8 +40,8 @@ var fruit = LoadFromJson<Fruit>(@"C:/Projects/YourGame/Assets/SavedGames/Data/My
 ## To develop this package:
 
 - Create a unity project.
-- In the `packages` folder Create a folder named `com.fertilesky.jsonserializer` 
-- in the created folder run git bash and `git clone` this repo.
+- In the `packages` folder run git bash and `git clone` this repo.
+- A folder named `com.fertilesky.jsonserializer` should appear in the packages folder with all files from this repo.
 - Run unity project.
 - Edit the package files and commit your changes to the repository.
 - Dont forget to write unit tests for the unity test runner.
